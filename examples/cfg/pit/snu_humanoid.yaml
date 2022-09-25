@@ -39,7 +39,7 @@ params:
     ppo_clip: 0.0
     horizon: 32
     num_minibatches: 1
-    actor_iterations: 2
+    actor_iterations: 4
 
     player:
       determenistic: True
