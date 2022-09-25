@@ -63,7 +63,7 @@ def get_args(): # TODO: delve into the arguments
             "help": "Run trained policy, the same as test"},
         {"name": "--checkpoint", "type": str, "default": "Base",
             "help": "Path to the saved weights"},
-        {"name": "--logdir", "type": str, "default": "logs/{}/pit-iteration-2/".format(task)},
+        {"name": "--logdir", "type": str, "default": "logs/{}/pit/".format(task)},
         {"name": "--save-interval", "type": int, "default": 0},
         {"name": "--no-time-stamp", "action": "store_true", "default": False,
             "help": "whether not add time stamp at the log path"},
